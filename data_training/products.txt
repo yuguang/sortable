@@ -1,0 +1,7 @@
+{"product_name":"Kodak_EasyShare_Z981","manufacturer":"Kodak","model":"Z981","family":"EasyShare","announced-date":"2010-01-04T19:00:00.000-05:00","labelled_id":"4"}
+{"product_name":"Canon_PowerShot_SX130_IS","manufacturer":"Canon","model":"SX130 IS","family":"PowerShot","announced-date":"2010-08-18T20:00:00.000-04:00","labelled_id":"0"}
+{"product_name":"Canon-ELPH-300HS","manufacturer":"Canon","model":"300 HS","family":"ELPH","announced-date":"2011-02-06T19:00:00.000-05:00","labelled_id":"3"}
+{"product_name":"Canon_PowerShot_A495","manufacturer":"Canon","model":"A495","family":"PowerShot","announced-date":"2010-01-04T19:00:00.000-05:00","labelled_id":"2"}
+{"product_name":"Canon_PowerShot_D10","manufacturer":"Canon","model":"D10","family":"PowerShot","announced-date":"2009-02-17T19:00:00.000-05:00","labelled_id":"1"}
+{"product_name":"Olympus_mju_5010","manufacturer":"Olympus","model":"mju 5010","announced-date":"2010-01-06T19:00:00.000-05:00","labelled_id":"5"}
+{"product_name":"Olympus-FE5030","manufacturer":"Olympus","model":"FE5030","announced-date":"2009-07-21T20:00:00.000-04:00","labelled_id":"6"}

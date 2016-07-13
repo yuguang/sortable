@@ -30,7 +30,7 @@ class AbstractProduct(metaclass=abc.ABCMeta):
 
     def to_dict(self):
 
-        return {'manufacturer': self.get_manufacturer(), 'model': self.get_model(), 'family': self.get_family()}
+        return {'name': self.get_name(), 'manufacturer': self.get_manufacturer(), 'model': self.get_model(), 'family': self.get_family()}
 
     @abc.abstractmethod
     def populate(self, row):
@@ -62,7 +62,7 @@ class Product(AbstractProduct):
     def populate(self, row):
         self.manufacturer = row.manufacturer
         self.model = row.model
-        if 'family' in row:
+        if hasattr(row, 'family'):
             self.family = row.family
         self.name = row.product_name
 
@@ -162,6 +162,11 @@ class TestProduct(unittest.TestCase):
         p = Product()
         p.populate(objdict({"product_name":"Olympus_C-21","manufacturer":"Olympus","model":"C-21","announced-date":"1999-06-27T20:00:00.000-04:00"}))
         self.assertEqual('C-21', p.get_model())
+
+    def test_family(self):
+        p = Product()
+        p.populate(objdict({"product_name":"Fujifilm-XP30","manufacturer":"Fujifilm","model":"XP30","family":"FinePix","announced-date":"2011-02-15T19:00:00.000-05:00"}))
+        self.assertEqual('FinePix', p.get_family())
 
 class TestListing(unittest.TestCase):
     def test_clean(self):

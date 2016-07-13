@@ -12,6 +12,12 @@ class AbstractProduct(metaclass=abc.ABCMeta):
         self.family = ""
         self.name = ""
 
+    def standardize(self, text):
+        if len(text):
+            return text.lower()
+        else:
+            return None
+
     def get_manufacturer(self):
         
         return self._remove_non_ascii_characters(self.manufacturer)
@@ -30,7 +36,7 @@ class AbstractProduct(metaclass=abc.ABCMeta):
 
     def to_dict(self):
 
-        return {'name': self.get_name(), 'manufacturer': self.get_manufacturer(), 'model': self.get_model(), 'family': self.get_family()}
+        return {'name': self.get_name(), 'manufacturer': self.standardize(self.get_manufacturer()), 'model': self.standardize(self.get_model()), 'family': self.standardize(self.get_family())}
 
     @abc.abstractmethod
     def populate(self, row):

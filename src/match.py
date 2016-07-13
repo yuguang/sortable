@@ -4,6 +4,8 @@ try:
 except:
     from src.settings import *
     from src.model import *
+from collections import defaultdict
+from pprint import pprint
 from pyspark.sql.types import *
 from pyspark.sql.functions import concat_ws, col, monotonicallyIncreasingId, regexp_replace
 from pyspark.ml.feature import Tokenizer, RegexTokenizer
@@ -26,8 +28,8 @@ def canonical_format(df, Item):
         item = Item()
         item.populate(row)
         return item.to_dict()
-    return df.withColumn('id', monotonicallyIncreasingId())\
-             .map(lambda row: (row.id, to_dict(row))).collectAsMap()
+    df = df.withColumn('id', monotonicallyIncreasingId())
+    return (df, df.map(lambda row: (row.id, to_dict(row))).collectAsMap())
 
 if __name__ == "__main__":
     conf = SparkConf().setAppName("sortable")
@@ -37,12 +39,16 @@ if __name__ == "__main__":
     # load gazetteer
     fields = [{'field': 'name', 'type': 'String'},
               {'field': 'manufacturer', 'type': 'String'},
+              {'field': 'model', 'type': 'String'},
+              {'field': 'family', 'type': 'String'},
               ]
     gazetteer = Gazetteer(fields)
     # read in listings from json file
     # specifying fields makes the parsing more efficient in Spark
     listing_fields = [StructField("title", StringType(), True),
                       StructField("manufacturer", StringType(), True),
+                      StructField("currency", StringType(), True),
+                      StructField("price", StringType(), True),
                     ]
     listings = sqlContext.read.json(LISTINGS_PATH, StructType(listing_fields)).distinct()
     # break listing title into words
@@ -58,6 +64,44 @@ if __name__ == "__main__":
     products = sqlContext.read.json(PRODUCTS_PATH, StructType(product_fields))\
                                 .fillna({'family': ''}) # replace nulls in family fields
 
-    products_dict = canonical_format(products, Product)
-    listings_dict = canonical_format(listings, Listing)
+    products_df, products_dict = canonical_format(products, Product)
+    listings_df, listings_dict = canonical_format(listings, Listing)
+
+    products_training_dict = json.load(open(PRODUCTS_TRAINING_PATH))
+    listings_training_dict = json.load(open(LISTINGS_TRAINING_PATH))
+    # train model
+    gazetteer.sample(products_dict, listings_dict, 10000)
+    training_pairs = trainingDataLink(products_training_dict, listings_training_dict, 'labelled_id', 500)
+    gazetteer.markPairs(training_pairs)
+    gazetteer.train()
+
+    # partition listings and match with products
+    if not gazetteer.blocked_records:
+        gazetteer.index(listings_dict)
+
+    alpha = gazetteer.threshold(products_dict, recall_weight=.5)
+
+
+    # identify records that all refer to the same entity
+    print('clustering...')
+    clustered_dupes = gazetteer.match(products_dict, threshold=alpha, n_matches=1)
+
+    match_dict = defaultdict(list)
+    # fill in null entries
+    listings_df.fillna('')
+    # convert to data frame
+    for matches in clustered_dupes:
+        # loop through a sequence of record ids and corresponding sequence of confidence score
+        for pair, score in matches:
+            product = products_df.filter(products_df['id'] == int(pair[0])).first()
+            listing = listings_df.filter(listings_df['id'] == int(pair[1])).first()
+            match_dict[product.product_name].append({
+                "title": listing.title,
+                "manufacturer": listing.manufacturer,
+                "currency": listing.currency,
+                "price": listing.price
+            })
+    pprint(match_dict)
+
+
 

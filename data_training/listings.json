@@ -1,0 +1,121 @@
+{
+  "0": {
+    "name": "Canon PowerShot SX130IS 12.1 MP Digital Camera with 12x Wide Angle Optical Image Stabilized Zoom with 3.0 Inch LCD",
+    "labelled_id": "0",
+    "family": "PowerShot",
+    "model": "SX130IS",
+    "manufacturer": "Canon"
+  },
+  "1": {
+    "name": "Canon PowerShot SX130IS 12.1 MP Digital Camera with 12x Wide Angle Optical Image Stabilized Zoom with 3.0 Inch LCD",
+    "labelled_id": "0",
+    "family": "PowerShot",
+    "model": "SX130IS",
+    "manufacturer": "Canon"
+  },
+  "2": {
+    "name": "Canon PowerShot D10 12.1 MP Waterproof Digital Camera with 3x Optical Image Stabilized Zoom and 2.5 inch LCD Blue Silver ",
+    "labelled_id": "1",
+    "family": "PowerShot",
+    "model": "D10",
+    "manufacturer": "Canon"
+  },
+  "3": {
+    "name": "Canon PowerShot D10 12.1 MP Waterproof Digital Camera with 3x Optical Image Stabilized Zoom and 2.5 inch LCD Blue Silver ",
+    "labelled_id": "1",
+    "family": "PowerShot",
+    "model": "D10",
+    "manufacturer": "Canon"
+  },
+  "4": {
+    "name": "Canon PowerShot A495 10.1 MP Digital Camera with 3.3x Optical Zoom and 2.5 Inch LCD Blue ",
+    "labelled_id": "2",
+    "family": "PowerShot",
+    "model": "A495",
+    "manufacturer": "Canon"
+  },
+  "5": {
+    "name": "Canon PowerShot A495 10.1 MP Digital Camera with 3.3x Optical Zoom and 2.5 Inch LCD Blue ",
+    "labelled_id": "2",
+    "family": "PowerShot",
+    "model": "A495",
+    "manufacturer": "Canon"
+  },
+  "6": {
+    "name": "Canon PowerShot ELPH 300 HS Black ",
+    "labelled_id": "3",
+    "family": "PowerShot",
+    "model": "ELPH 300",
+    "manufacturer": "Canon"
+  },
+  "7": {
+    "name": "Canon PowerShot ELPH 300 HS Black ",
+    "labelled_id": "3",
+    "family": "PowerShot",
+    "model": "ELPH 300",
+    "manufacturer": "Canon"
+  },
+  "8": {
+    "name": "Kodak EasyShare Z981 14MP Digital Camera with Schneider Kreuznach Variogon 26x Wide Angle Optical Image Stabilized Zoom Lens and 3.0 Inch LCD",
+    "labelled_id": "4",
+    "family": "EasyShare",
+    "model": "Z981",
+    "manufacturer": "Kodak"
+  },
+  "9": {
+    "name": "Kodak EasyShare Z981 14MP Digital Camera with Schneider Kreuznach Variogon 26x Wide Angle Optical Image Stabilized Zoom Lens and 3.0 Inch LCD",
+    "labelled_id": "4",
+    "family": "EasyShare",
+    "model": "Z981",
+    "manufacturer": "Kodak"
+  },
+  "10": {
+    "name": "Canon PowerShot A495 10.1 MP Digital Camera with 3.3x Optical Zoom and 2.5 Inch LCD Red ",
+    "labelled_id": "2",
+    "family": "PowerShot",
+    "model": "A495",
+    "manufacturer": "Canon"
+  },
+  "11": {
+    "name": "Canon PowerShot A495 10.1 MP Digital Camera with 3.3x Optical Zoom and 2.5 Inch LCD Red ",
+    "labelled_id": "2",
+    "family": "PowerShot",
+    "model": "A495",
+    "manufacturer": "Canon"
+  },
+  "12": {
+    "name": "Olympus Mju 5010 Digitalkamera 14 Megapixel 5 fach Zoom 6 9 cm 2 7 Zoll Display 1GB intern Speicher Light Pink",
+    "labelled_id": "5",
+    "family": "",
+    "model": "Mju-5010",
+    "manufacturer": "Olympus"
+  },
+  "13": {
+    "name": "Olympus Mju 5010 Digitalkamera 14 Megapixel 5 fach Zoom 6 9 cm 2 7 Zoll Display 1GB intern Speicher Light Pink",
+    "labelled_id": "5",
+    "family": "",
+    "model": "Mju-5010",
+    "manufacturer": "Olympus"
+  },
+  "14": {
+    "name": "Olympus Mju 5010 Digitalkamera 14 Megapixel 5 fach Zoom 6 9 cm 2 7 Zoll Display 1GB intern Speicher Titansilber",
+    "labelled_id": "5",
+    "family": "",
+    "model": "Mju-5010",
+    "manufacturer": "Olympus"
+  },
+  "15": {
+    "name": "Olympus Mju 5010 Digitalkamera 14 Megapixel 5 fach Zoom 6 9 cm 2 7 Zoll Display 1GB intern Speicher Titansilber",
+    "labelled_id": "5",
+    "family": "",
+    "model": "Mju-5010",
+    "manufacturer": "Olympus"
+  },
+  "16": {
+    "name": "Olympus FE 5030 Appareil photo num\u00e9rique 14 Mpix Anthracite",
+    "labelled_id": "6",
+    "family": "-",
+    "model": "FE 5030",
+    "manufacturer": "Olympus"
+  }
+}

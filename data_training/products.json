@@ -1,0 +1,51 @@
+{
+  "0": {
+    "name": "Kodak EasyShare Z981",
+    "labelled_id": "4",
+    "family": "EasyShare",
+    "model": "Z981",
+    "manufacturer": "Kodak"
+  },
+  "1": {
+    "name": "Canon PowerShot SX130 IS",
+    "labelled_id": "0",
+    "family": "PowerShot",
+    "model": "SX130 IS",
+    "manufacturer": "Canon"
+  },
+  "2": {
+    "name": "Canon ELPH 300HS",
+    "labelled_id": "3",
+    "family": "ELPH",
+    "model": "300 HS",
+    "manufacturer": "Canon"
+  },
+  "3": {
+    "name": "Canon PowerShot A495",
+    "labelled_id": "2",
+    "family": "PowerShot",
+    "model": "A495",
+    "manufacturer": "Canon"
+  },
+  "4": {
+    "name": "Canon PowerShot D10",
+    "labelled_id": "1",
+    "family": "PowerShot",
+    "model": "D10",
+    "manufacturer": "Canon"
+  },
+  "5": {
+    "name": "Olympus mju 5010",
+    "labelled_id": "5",
+    "family": "",
+    "model": "mju 5010",
+    "manufacturer": "Olympus"
+  },
+  "6": {
+    "name": "Olympus FE5030",
+    "labelled_id": "6",
+    "family": "",
+    "model": "FE5030",
+    "manufacturer": "Olympus"
+  }
+}

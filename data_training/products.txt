@@ -5,3 +5,8 @@
 {"product_name":"Canon_PowerShot_D10","manufacturer":"Canon","model":"D10","family":"PowerShot","announced-date":"2009-02-17T19:00:00.000-05:00","labelled_id":"1"}
 {"product_name":"Olympus_mju_5010","manufacturer":"Olympus","model":"mju 5010","announced-date":"2010-01-06T19:00:00.000-05:00","labelled_id":"5"}
 {"product_name":"Olympus-FE5030","manufacturer":"Olympus","model":"FE5030","announced-date":"2009-07-21T20:00:00.000-04:00","labelled_id":"6"}
+{"product_name":"Panasonic-TZ18","manufacturer":"Panasonic","model":"DMC-TZ18","family":"Lumix","announced-date":"2011-01-24T19:00:00.000-05:00","labelled_id":"7"}
+{"product_name":"Olympus-TG-810","manufacturer":"Olympus","model":"TG-810","family":"Tough","announced-date":"2011-03-01T19:00:00.000-05:00","labelled_id":"9"}
+{"product_name":"Sony_SLT-A55","manufacturer":"Sony","model":"SLT-A55","announced-date":"2010-08-23T20:00:00.000-04:00","labelled_id":"10"}
+{"product_name":"Fujifilm_FinePix_Z37","manufacturer":"Fujifilm","model":"Z37","family":"FinePix","announced-date":"2009-07-21T20:00:00.000-04:00","labelled_id":"11"}
+{"product_name":"Panasonic_Lumix_DMC-FZ100","manufacturer":"Panasonic","model":"DMC-FZ100","family":"Lumix","announced-date":"2010-07-16T20:00:00.000-04:00","labelled_id":"12"}

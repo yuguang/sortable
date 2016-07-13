@@ -2,16 +2,52 @@
 {"title":"Canon PowerShot SX130IS 12.1 MP Digital Camera with 12x Wide Angle Optical Image Stabilized Zoom with 3.0-Inch LCD","manufacturer":"Canon Canada","currency":"CAD","price":"209.00","labelled_id":"0"}
 {"title":"Canon PowerShot D10 12.1 MP Waterproof Digital Camera with 3x Optical Image Stabilized Zoom and 2.5-inch LCD (Blue/Silver)","manufacturer":"Canon Canada","currency":"CAD","price":"306.24","labelled_id":"1"}
 {"title":"Canon PowerShot D10 12.1 MP Waterproof Digital Camera with 3x Optical Image Stabilized Zoom and 2.5-inch LCD (Blue/Silver)","manufacturer":"Canon Canada","currency":"CAD","price":"420.33","labelled_id":"1"}
+{"title":"Canon PowerShot D10 12.1 MP Waterproof Digital Camera with 3x Optical Image Stabilized Zoom and 2.5-inch LCD (Red/Silver)","manufacturer":"Canon Canada","currency":"CAD","price":"420.33","labelled_id":"1"}
 {"title":"Canon PowerShot A495 10.1 MP Digital Camera with 3.3x Optical Zoom and 2.5-Inch LCD (Blue)","manufacturer":"Canon Canada","currency":"CAD","price":"88.00","labelled_id":"2"}
 {"title":"Canon PowerShot A495 10.1 MP Digital Camera with 3.3x Optical Zoom and 2.5-Inch LCD (Blue)","manufacturer":"Canon Canada","currency":"CAD","price":"129.92","labelled_id":"2"}
+{"title":"Canon PowerShot A495 10.1 MP Digital Camera with 3.3x Optical Zoom and 2.5-Inch LCD (Red)","manufacturer":"Canon Canada","currency":"CAD","price":"129.92","labelled_id":"2"}
 {"title":"Canon PowerShot ELPH 300 HS (Black)","manufacturer":"Canon Canada","currency":"CAD","price":"259.99","labelled_id":"3"}
 {"title":"Canon PowerShot ELPH 300 HS (Black)","manufacturer":"Canon Canada","currency":"CAD","price":"289.00","labelled_id":"3"}
+{"title":"Canon PowerShot ELPH 300 HS (White)","manufacturer":"Canon Canada","currency":"CAD","price":"289.00","labelled_id":"3"}
 {"title":"Kodak EasyShare Z981 14MP Digital Camera with Schneider-Kreuznach Variogon 26x Wide Angle Optical Image Stabilized Zoom Lens and 3.0 Inch LCD","manufacturer":"Kodak","currency":"CAD","price":"299.00","labelled_id":"4"}
 {"title":"Kodak EasyShare Z981 14MP Digital Camera with Schneider-Kreuznach Variogon 26x Wide Angle Optical Image Stabilized Zoom Lens and 3.0 Inch LCD","manufacturer":"Kodak","currency":"CAD","price":"299.95","labelled_id":"4"}
+{"title":"KODAK EasyShare Z981 14MP Digital Camera with Schneider-Kreuznach Variogon 26x Wide Angle Optical Image Stabilized Zoom Lens and 3.0 Inch LCD","manufacturer":"Kodak","currency":"CAD","price":"299.95","labelled_id":"4"}
+{"title":"KODAK EASYSHARE Z981 14MP Digital Camera with Schneider-Kreuznach Variogon 26x Wide Angle Optical Image Stabilized Zoom Lens and 3.0 Inch LCD","manufacturer":"Kodak","currency":"CAD","price":"299.95","labelled_id":"4"}
 {"title":"Canon PowerShot A495 10.1 MP Digital Camera with 3.3x Optical Zoom and 2.5-Inch LCD (Red)","manufacturer":"Canon Canada","currency":"CAD","price":"105.39","labelled_id":"2"}
 {"title":"Canon PowerShot A495 10.1 MP Digital Camera with 3.3x Optical Zoom and 2.5-Inch LCD (Red)","manufacturer":"Canon Canada","currency":"CAD","price":"150.97","labelled_id":"2"}
+{"title":"CANNON PowerShot A495 10.1 MP Digital Camera with 3.3x Optical Zoom and 2.5-Inch LCD (Red)","manufacturer":"Canon Canada","currency":"CAD","price":"150.97","labelled_id":"2"}
+{"title":"CANON POWERSHOT A495 10.1 MP Digital Camera with 3.3x Optical Zoom and 2.5-Inch LCD (Red)","manufacturer":"Canon Canada","currency":"CAD","price":"150.97","labelled_id":"2"}
 {"title":"Olympus Mju-5010 Digitalkamera (14 Megapixel, 5-fach Zoom, 6,9 cm (2,7 Zoll) Display, 1GB intern Speicher) Light Pink","manufacturer":"Olympus","currency":"EUR","price":"69.90","labelled_id":"5"}
 {"title":"Olympus Mju-5010 Digitalkamera (14 Megapixel, 5-fach Zoom, 6,9 cm (2,7 Zoll) Display, 1GB intern Speicher) Light Pink","manufacturer":"Olympus","currency":"EUR","price":"89.00","labelled_id":"5"}
 {"title":"Olympus Mju-5010 Digitalkamera (14 Megapixel, 5-fach Zoom, 6,9 cm (2,7 Zoll) Display, 1GB intern Speicher) Titansilber","manufacturer":"Olympus","currency":"EUR","price":"99.00","labelled_id":"5"}
 {"title":"Olympus Mju-5010 Digitalkamera (14 Megapixel, 5-fach Zoom, 6,9 cm (2,7 Zoll) Display, 1GB intern Speicher) Titansilber","manufacturer":"Olympus","currency":"EUR","price":"104.93","labelled_id":"5"}
 {"title":"Olympus - FE-5030 - Appareil photo numérique - 14 Mpix - Anthracite","manufacturer":"Olympus","currency":"EUR","price":"142.01","labelled_id":"6"}
+{"title":"Panasonic Lumix TZ18 Digital Camera - Black (14.1MP, 16x Optical Zoom) 3.0 inch LCD","manufacturer":"Panasonic","currency":"GBP","price":"219.50","labelled_id":"7"}
+{"title":"PANASONIC Lumix TZ18 Digital Camera - Black (14.1MP, 16x Optical Zoom) 3.0 inch LCD","manufacturer":"Panasonic","currency":"GBP","price":"219.50","labelled_id":"7"}
+{"title":"Panasonic Lumix TZ18 Digital Camera - Black (14.1MP, 16x Optical Zoom) 3.0 inch LCD","manufacturer":"Panasonic","currency":"GBP","price":"224.00","labelled_id":"7"}
+{"title":"Panasonic Lumix TZ18 Digital Camera - Silver (14.1MP, 16x Optical Zoom) 3.0 inch LCD","manufacturer":"Panasonic","currency":"GBP","price":"219.50","labelled_id":"7"}
+{"title":"Panasonic Lumix TZ18 Digital Camera - Silver (14.1MP, 16x Optical Zoom) 3.0 inch LCD","manufacturer":"Panasonic","currency":"GBP","price":"228.88","labelled_id":"7"}
+{"title":"Panasonic Lumix TZ18 Digital Camera - Green (14.1MP, 16x Optical Zoom) 3.0 inch LCD","manufacturer":"Panasonic","currency":"GBP","price":"228.88","labelled_id":"7"}
+{"title":"Panasonic Lumix TZ18 Digital Camera - Red (14.1MP, 16x Optical Zoom) 3.0 inch LCD","manufacturer":"Panasonic","currency":"GBP","price":"228.88","labelled_id":"7"}
+{"title":"OLYMPUS Tough TG-810 - noir","manufacturer":"Olympus","currency":"EUR","price":"405.99","labelled_id":"9"}
+{"title":"Olympus Tough TG-810 - noir","manufacturer":"Olympus","currency":"EUR","price":"405.99","labelled_id":"9"}
+{"title":"Olympus Tough TG-810 - blue","manufacturer":"Olympus","currency":"EUR","price":"405.99","labelled_id":"9"}
+{"title":"Olympus Tough TG-810 - black","manufacturer":"Olympus","currency":"EUR","price":"405.99","labelled_id":"9"}
+{"title":"Sony Alpha DSLR-SLT-A55 16.2MP Digital Camera with Sony 18-55mm f/3.5-5.6 DT AF Zoom Lens + Sony AF-D 75-300mm f/4.5-5.6 Autofocus Lens + 15Pc Starter Pack # 3","manufacturer":"Sony","currency":"USD","price":"1148.88","labelled_id":"10"}
+{"title":"Sony Alpha DSLR-A580 16.2 MP Digital SLR Camera & 18-55mm Lens with 16GB Card + Battery + Case + UV Filter + Tripod + Cleaning & Accessory Kit","manufacturer":"Sony","currency":"USD","price":"859.95","labelled_id":"10"}
+{"title":"Sony Alpha DSLR-SLT-A55 16.2MP Digital Camera with 18-55mm f/3.5-5.6 DT AF Zoom Lens + Sony SAL-55200-2 55-200mm f/4-5.6 DT AF Zoom Lens + 15Pc Starter Pack # 4","manufacturer":"Sony","currency":"USD","price":"1079.95","labelled_id":"10"}
+{"title":"Sony Alpha Dslr-slt-a55 Digital Camera with 18-55mm Lens + 55-200mm Lens + Huge Accessories Package Including Wide Angle Macro Lens + 2x Telephoto Lens + 3 Pc Filter Kit + 16gb Sdhc Memory Card & Much More!!","manufacturer":"Digital","currency":"USD","price":"1173.00","labelled_id":"10"}
+{"title":"Sony Alpha Dslr-slt-a55 Digital Camera W/18-55mm Lens + Huge Accessories Package Including Wide Angle Macro Lens + 2x Telephoto Lens + 3 Pc Filter Kit + 16gb Sdhc Memory Card & Much More!!","manufacturer":"Digital","currency":"USD","price":"958.00","labelled_id":"10"}
+{"title":"Sony Alpha DSLR-SLT-A55 16.2MP Digital Camera [OutFit] + Sony SAL-50F18 50mm f/1.8 DT AF Lens + 15Pc Starter Pack # 7","manufacturer":"Sony","currency":"USD","price":"949.95","labelled_id":"10"}
+{"title":"Fujifilm Finepix Z37 10MP Digital Camera with 3x Optical Zoom and 2.7 inch LCD (Purple)","manufacturer":"FUJIFILM","currency":"USD","price":"109.95","labelled_id":"11"}
+{"title":"Fujifilm Finepix Z37 10MP Digital Camera with 3x Optical Zoom and 2.7 inch LCD (Green)","manufacturer":"FUJIFILM","currency":"USD","price":"65.00","labelled_id":"11"}
+{"title":"Fujifilm Finepix Z37 10MP Digital Camera with 3x Optical Zoom and 2.7 inch LCD (Blue)","manufacturer":"FUJIFILM","currency":"USD","price":"72.89","labelled_id":"11"}
+{"title":"Fujifilm FinePix Z37 - Digital camera - compact - 10.0 Mpix - optical zoom: 3 x - supported memory: MMC, SD, SDHC - purple","manufacturer":"FUJIFILM","currency":"USD","price":"159.99","labelled_id":"11"}
+{"title":"Fujifilm Finepix Z37 10MP Digital Camera w/ 3x Optical Zoom, 2.7 inch LCD (Purple)","manufacturer":"FUJIFILM","currency":"GBP","price":"42.95","labelled_id":"11"}
+{"title":"Panasonic Lumix DMC-FZ100 - black","manufacturer":"Panasonic","currency":"GBP","price":"441.99","labelled_id":"12"}
+{"title":"Panasonic Lumix DMC-FZ100 14.1 MP Digital Camera with 24x Optical Image Stabilized Zoom and 3.0-Inch LCD (Black)","manufacturer":"Panasonic","currency":"USD","price":"406.99","labelled_id":"12"}
+{"title":"Panasonic Lumix DMC-FZ100 14.1 MP Digital Camera with 24x Optical Image Stabilized Zoom and 3.0-Inch LCD (Black)","manufacturer":"Panasonic","currency":"USD","price":"549.00","labelled_id":"12"}
+{"title":"Panasonic Lumix DMC-FZ100 noir + 1x LOOKit Sac GW-38 + 1x carte mémoire 16 GB SDHC (catégorie 10) FZ100 - offre de LOOKit® - Expédié depuis Allemagne","manufacturer":"Panasonic","currency":"EUR","price":"479.95","labelled_id":"12"}
+{"title":"PANASONIC Lumix DMC-FZ100 - noir + Etui PIXMANIA BRIDGE 13 X 11 X 10 CM + Carte mémoire SDHC 16 Go","manufacturer":"Panasonic","currency":"EUR","price":"698.99","labelled_id":"12"}
+{"title":"PANASONIC Lumix DMC-FZ100 - noir + Etui PIXMANIA BRIDGE 13 X 11 X 10 CM + Carte mémoire SDHC 16 Go + Mini trépied Pocketpod","manufacturer":"Panasonic","currency":"EUR","price":"706.99","labelled_id":"12"}
+{"title":"PANASONIC DMC-FZ100 + Sac + 2x Filtres + Carte 8GB + 2° batterie","manufacturer":"Panasonic","currency":"EUR","price":"589.90","labelled_id":"12"}

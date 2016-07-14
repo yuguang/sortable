@@ -8,6 +8,7 @@ from pyspark.ml.feature import Tokenizer, RegexTokenizer
 from dedupe import Gazetteer, trainingDataLink
 from pyspark import SparkContext, SparkConf, StorageLevel
 from pyspark.sql import SQLContext
+import json
 
 '''
 1. Filter out duplicate rows in listings
@@ -109,6 +110,7 @@ if __name__ == "__main__":
         })
     debug(match_dict)
 
+    # write to a result file
     with open(OUTPUT_PATH, 'w') as output_file:
         for product_name, listings in match_dict.items():
             result = {

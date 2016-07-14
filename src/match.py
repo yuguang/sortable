@@ -1,9 +1,5 @@
-try:
-    from settings import *
-    from model import *
-except:
-    from src.settings import *
-    from src.model import *
+from settings import *
+from model import *
 from collections import defaultdict
 from pprint import pprint
 from pyspark.sql.types import *

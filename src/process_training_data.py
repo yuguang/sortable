@@ -1,9 +1,6 @@
-try:
-    from settings import *
-    from model import *
-except:
-    from src.settings import *
-    from src.model import *
+
+from settings import *
+from model import *
 import json
 
 with open(PRODUCTS_TRAINING_RAW_PATH) as file, open(PRODUCTS_TRAINING_PATH, 'w') as output:

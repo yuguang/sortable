@@ -11,4 +11,4 @@ PRODUCTS_TRAINING_RAW_PATH = os.path.join(TRAINING_DIR, 'products.txt')
 LISTINGS_TRAINING_PATH = os.path.join(TRAINING_DIR, 'listings.json')
 PRODUCTS_TRAINING_PATH = os.path.join(TRAINING_DIR, 'products.json')
 OUTPUT_PATH = os.path.join(OUTPUT_DIR, 'matchings.txt')
-DEBUG = True
+DEBUG = False

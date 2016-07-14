@@ -43,6 +43,6 @@ For record linkage algorithms to work more effectively, I split listing data int
 Listings have inconsistent capitalization. My classes for products and listings return lowercased fields for manufacturer, family, and model. For product_name and title which are stored as the `name` field in their classes, I remove hyphens and punctuation. 
 
 ## Class Structure
-I have two classes, `Product` and `Listing`, all inheriting from an `AbstractProduct` class. `AbstractProduct` is an abstract base class. `Product` and `Listing` are concrete implementations. 
+I have two classes, `Product` and `Listing`, all inheriting from an `AbstractProduct` class. `AbstractProduct` is an abstract base class. `Product` and `Listing` are concrete implementations. Concrete classes also implement the `populate` method, which takes a Spark DataFrame row and sets the respective attributes. Listings only have the manufacturer field in the JSON. Therefore, the `populate` method is implemented by two separate classes.   
 
 ![UML class diagram](img/model.png)
